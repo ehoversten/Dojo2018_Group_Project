@@ -13,3 +13,10 @@ Meggie Chen
 Paulino Santos
 Georges
 Davis
+
+
+Technology Stack:
+Python 
+Django - Interface
+MySQL - Database
+React - Frontend (Html/CSS/AJAX)
