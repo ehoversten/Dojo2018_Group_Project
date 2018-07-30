@@ -17,4 +17,5 @@ Technology Stack:
 Python 
 Django - Interface
 MySQL - Database
-React - Frontend (Html/CSS/AJAX)
+Angular - Main Frontend framework.
+React(Alpha) - Frontend (Html/CSS/AJAX)
