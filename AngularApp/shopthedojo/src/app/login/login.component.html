@@ -1,3 +1,8 @@
-<p>
-  login works!
-</p>
+{{ login| json }}
+
+<form (submit)="Login()">
+  Email:<input type="text" name="registrant.email" [(ngModel)]="registrant.email">
+  Password:<input type="text" name="registrant.password" [(ngModel)]="registrant.password">
+  Confirm:<input type="text" name="registrant.confirm" [(ngModel)]="registrant.confirm">
+	<input type="submit" value="Login">
+</form>
