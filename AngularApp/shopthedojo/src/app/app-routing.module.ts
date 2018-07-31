@@ -28,6 +28,9 @@ import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: RegistrationComponent },
   { path: 'login', component: LoginComponent },
+<<<<<<< HEAD
+>>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
+=======
 >>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
 ];
 
