@@ -24,12 +24,7 @@ export class UserService {
   findById(id, cb) {
     this.http.get('/api/users/' + id).subscribe(data => cb(data));
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   // 7.30.2018 - per Jose. Need update, findAll, delete routes.
-=======
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
-=======
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
+
 }

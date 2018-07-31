@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD
 import { RouterModule, Routes } from '@angular/router';
 
 // add-on components
@@ -20,18 +19,6 @@ const routes: Routes = [
   { path: 'main/user/:id', component: UserLandingComponent},
   { path: 'sell', component: SellProductComponent },
   { path: '', component: LoginComponent },
-=======
-import { Routes, RouterModule } from '@angular/router';
-import { RegistrationComponent } from './registration/registration.component';
-import { LoginComponent } from './login/login.component';
-
-const routes: Routes = [
-  { path: '', pathMatch: 'full', component: RegistrationComponent },
-  { path: 'login', component: LoginComponent },
-<<<<<<< HEAD
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
-=======
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
 ];
 
 @NgModule({

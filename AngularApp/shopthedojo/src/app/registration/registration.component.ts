@@ -12,15 +12,7 @@ export class RegistrationComponent implements OnInit {
   logger: { email: string; password: string };
   errors: any[];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   constructor(private userService: UserService, private router: Router) {
-=======
-  constructor(private us: UserService, private router: Router) {
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
-=======
-  constructor(private us: UserService, private router: Router) {
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
     this.init();
   }
 
@@ -38,15 +30,7 @@ export class RegistrationComponent implements OnInit {
   }
 
   register() {
-<<<<<<< HEAD
-<<<<<<< HEAD
     this.userService.register(this.registrant, data => {
-=======
-    this.us.register(this.registrant, data => {
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
-=======
-    this.us.register(this.registrant, data => {
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
       if (data.errors || data.message) {
         this.errors.push(data.message);
       } else {
@@ -59,15 +43,7 @@ export class RegistrationComponent implements OnInit {
   // This is when this route is hit.
   // When initializing the component we are resetting the user. "Logging them out"
   ngOnInit() {
-<<<<<<< HEAD
-<<<<<<< HEAD
     this.userService.logout(data => {});
-=======
-    this.us.logout(data => {});
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
-=======
-    this.us.logout(data => {});
->>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
     localStorage.setItem('uid', undefined);
   }
 }
