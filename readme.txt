@@ -8,15 +8,13 @@ Group Members:
 
 Erik Hovesten
 Jose Gonzalez
-Vahid Wafapoor
 Meggie Chen
 Paulino Santos
-Georges
-Davis
+Davis Sheive
 
 
 Technology Stack:
-Python 
-Django - Interface
+Python
+Django/REST - Backend
 MySQL - Database
-React - Frontend (Html/CSS/AJAX)
+Angular - Frontend (Html/CSS/AJAX)
