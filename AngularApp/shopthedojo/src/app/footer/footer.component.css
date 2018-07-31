@@ -1,0 +1,33 @@
+*{
+    /* outline: 1px dashed red; */
+    margin: auto;
+    font-size: 12px;
+  }
+  
+  .container{
+    width: 90%;
+    justify-content: space-between;
+  }
+  
+  .banner{
+  background-color: rgba(20, 20, 20, 0.89);
+  color: white;
+  padding: 6px;
+  font-style: italic;
+  text-align: center;
+  font-size: 14px;
+  }
+  
+  .box{
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .img{
+    margin-left: 4px;
+    margin-top: 1px;
+  }
+  

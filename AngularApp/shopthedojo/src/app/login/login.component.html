@@ -1,3 +1,29 @@
-<p>
-  login works!
-</p>
+{{ login| json }}
+
+<<<<<<< HEAD
+<div *ngFor="let error of errors">
+  <h1>{{error}}</h1>
+</div>
+<div class="reg-form">
+  <h1>Sign-in</h1>
+    <div class="form-group">
+      <form (submit)="Login()">
+        Email:
+        <input type="text" name="logUser.email" [(ngModel)]="logUser.email"> 
+        Password:
+        <input type="text" name="logUser.password" [(ngModel)]="logUser.password"> 
+        Confirm:
+        <input type="text" name="logUser.confirm" [(ngModel)]="logUser.confirm">
+        <input type="submit" class="btn-success" value="Sign-in">
+      </form>
+    </div>
+</div>
+  
+=======
+<form (submit)="Login()">
+  Email:<input type="text" name="registrant.email" [(ngModel)]="registrant.email">
+  Password:<input type="text" name="registrant.password" [(ngModel)]="registrant.password">
+  Confirm:<input type="text" name="registrant.confirm" [(ngModel)]="registrant.confirm">
+	<input type="submit" value="Login">
+</form>
+>>>>>>> 1ee69159adc2dc902c1efa4d051238a4b5c8eaed
