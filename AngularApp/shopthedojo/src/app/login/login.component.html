@@ -1,0 +1,20 @@
+{{ login| json }}
+
+
+<div *ngFor="let error of errors">
+  <h1>{{error}}</h1>
+</div>
+<div class="reg-form">
+  <h1>Sign-in</h1>
+    <div class="form-group">
+      <form (submit)="Login()">
+        Email:
+        <input type="text" name="logUser.email" [(ngModel)]="logUser.email"> 
+        Password:
+        <input type="text" name="logUser.password" [(ngModel)]="logUser.password"> 
+        Confirm:
+        <input type="text" name="logUser.confirm" [(ngModel)]="logUser.confirm">
+        <input type="submit" class="btn-success" value="Sign-in">
+      </form>
+    </div>
+</div>
