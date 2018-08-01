@@ -26,5 +26,4 @@ destroy(order,cb){
     this.http.delete("/api/orders/destroy"+order._id)
     .subscribe(data=>cb(data));
 }
-
 }

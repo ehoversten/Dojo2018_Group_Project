@@ -23,6 +23,16 @@ export class LoginComponent implements OnInit {
 
     this.errors = [];
   }
+  login(){
+		this.userService.login(this.logUser,(data)=>{
+			if(data.errors || data.message){
+				this.errors.push(data.message);
+			}else{
+				localStorage.setItem("uid",data._id);
+				this.router.navigateByUrl("/browse");
+			}
+		});
+	}
 
   ngOnInit() {
     this.userService.logout(data => {});

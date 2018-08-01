@@ -39,7 +39,6 @@ export class RegistrationComponent implements OnInit {
       }
     });
   }
-
   // This is when this route is hit.
   // When initializing the component we are resetting the user. "Logging them out"
   ngOnInit() {
