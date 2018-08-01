@@ -1,0 +1,17 @@
+npm init -y
+npm install express --save body-parser --save mongoose --save express-flash --save express-sesssion --save
+sudo mongod
+nodemon server.js
+
+ng build --watch
+ng generate components  //+ watever name
+ng generate service  //+ watever name
+sudo pkill -f mongod
+npm install angular-cli@latest
+ng serve  //only use to check if angular is working
+ng new  //+ name of new project
+ng generate module app-routing --flat --module=app
+ng generate new name // --routing
+
+
+npm install demeanor@latest  //tony's creation!
